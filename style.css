@@ -14,9 +14,9 @@
     width:100%;
     height:100vh;
     background-color: #FFF8F3;
-    background-image: url('images/header_bg.png');
+    background-image: url('images/header_bg.png'),url(images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, left;
 }
 .container .vertical-text{
     width:5%;
@@ -156,8 +156,8 @@
 
 /* Hero image styling */
 .hero-image img {
-    width: 510px;
-    margin-left: 60px;
+    width: 550px;
+    margin-left: 70px;
     /* border-radius: 10px; */
 }
 
