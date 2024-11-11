@@ -157,8 +157,160 @@
 /* Hero image styling */
 .hero-image img {
     width: 550px;
-    margin-left: 70px;
-    /* border-radius: 10px; */
+    height: 595px;
+    
 }
 
 
+/* ============================== */
+/* ======= About me style========== */
+/* =============================================== */
+.about-me{
+    padding:100px;
+    background-color: #fff;
+}
+.about-container{
+    width:1140px;
+    background-color: #FFF8F3;
+    margin: 0 auto;
+    text-align: center;
+    padding:150px;
+    
+}
+.about-title{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.about-description{
+    font-size: 18px;
+    
+}
+.about-info-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+.about-info{
+    margin: 0 30px 0 30px;
+}
+.info-title {
+    font-size: 13px;
+
+}
+.info-detail{
+    font-size: 16px;
+    font-weight:600;
+}
+
+/* ============================== */
+/* ======= what i do ========== */
+/* ============================= */
+.what_i_do{
+   margin-bottom: 100px;
+}
+.what-container{
+  text-align: center;
+  width: 900px;
+  
+  margin:0 auto;
+}
+.primary-title{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color:#7B1FA2;
+}
+
+/* ============================== */
+/* ======= skills style ========== */
+/* ============================= */
+.skills{
+    width: 1140px;
+    margin:0 auto;
+    margin-bottom: 150px;
+}
+.skills-container{
+    display: flex;
+    /* background-color: #f7f7f7; */
+    
+     /* rgba(0, 0, 0, 0.06); */
+    gap: 15PX;
+
+                    
+}
+.skill{
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 80px 0px rgb(71, 207, 71);
+}
+.skill-title{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.skill-description{
+    
+    font-size: 15px;
+    line-height: 2;
+}
+
+/* ============================== */
+/* ======= skills style ========== */
+/* ============================= */
+.resume{
+    width : 1140px;
+   margin: 0 auto;
+}
+.resume > h3{
+    text-align: center;
+    margin-bottom: 140px;
+}
+.resume-container{
+    display: flex;
+    
+}
+.resume-col-left{
+    
+    padding:40px
+}
+.resume-col-right{
+    /* background-color: #fff; */
+    padding:40px
+}
+.resume-left-title{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.resume-item{
+
+}
+.resume-item-title{
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+.resume-item-sub-title{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+.resume-description{
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+.resume-right-title{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.space-top{margin-top:20px}
+
+.cv-download{
+    width:200px;
+    height: 65px;
+    border-radius: 13px;
+    background-color: #fd6e0a;
+    text-align:center;
+}
