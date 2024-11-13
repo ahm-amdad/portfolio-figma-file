@@ -1,59 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-
- body {
-        font-family: 'Open Sans', sans-serif; /* or 'Roboto Condensed' if preferred */
-    }
+body {
+    font-family: 'Open Sans', sans-serif;
+    /* or 'Roboto Condensed' if preferred */
+}
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.container{
-    width:100%;
-    height:100vh;
+
+.container {
+    width: 100%;
+    height: 100vh;
     background-color: #FFF8F3;
-    background-image: url('images/header_bg.png'),url(images/developer.png);
+    background-image: url('images/header_bg.png'), url(images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
 }
-.container .vertical-text{
-    width:5%;
+
+.container .vertical-text {
+    width: 5%;
 }
-.container .main-content{
-    width:95%;
+
+.container .main-content {
+    width: 95%;
 }
 
 /* Main container styling */
 .container {
     display: flex;
-    font-family:Open sans, sans-serif;
+    font-family: Open sans, sans-serif;
 }
 
 /* Vertical text section styling */
 .vertical-text {
-    font-size: 4rem; 
+    font-size: 4rem;
     padding-left: 15px;
     font-weight: bold;
-    color:#dcd6d2;
+    color: #dcd6d2;
     font-family: Open sans, serif;
     display: flex;
-    flex-direction: column-reverse; 
-    align-items:start; 
+    flex-direction: column-reverse;
+    align-items: start;
     /* letter-spacing: 2px;  */
 }
 
 .vertical-text span {
-    transform: rotate(-90deg); 
+    transform: rotate(-90deg);
     display: block;
-    margin: 5px 0; 
-}  
+    margin: 5px 0;
+}
 
 
 /* Main content styling */
 .main-content {
-    
+
     flex: 1;
     padding: 40px;
     padding-left: 20px;
@@ -78,15 +81,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:60px;
-    margin:0 50px 0 30px;
+    gap: 60px;
+    margin: 0 50px 0 30px;
 }
 
 .nav-links a {
     text-decoration: none;
     color: #333;
     font-size: 16px;
-    font-family: Open sans,sans-serif;
+    font-family: Open sans, sans-serif;
 }
 
 .hire-me-btn {
@@ -97,7 +100,7 @@
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    font-family: Open sans,sans-serif;
+    font-family: Open sans, sans-serif;
 }
 
 
@@ -158,101 +161,114 @@
 .hero-image img {
     width: 550px;
     height: 595px;
-    
+
 }
 
 
 /* ============================== */
 /* ======= About me style========== */
 /* =============================================== */
-.about-me{
-    padding:100px;
+.about-me {
+    padding: 100px;
     background-color: #fff;
 }
-.about-container{
-    width:1140px;
+
+.about-container {
+    width: 1140px;
     background-color: #FFF8F3;
     margin: 0 auto;
     text-align: center;
-    padding:150px;
-    
+    padding: 150px;
+
 }
-.about-title{
+
+.about-title {
     font-size: 35px;
     font-weight: bold;
     margin-bottom: 20px;
 }
-.about-description{
+
+.about-description {
     font-size: 18px;
-    
+
 }
-.about-info-container{
+
+.about-info-container {
     margin-top: 30px;
     display: flex;
     justify-content: center;
 
 }
-.about-info{
+
+.about-info {
     margin: 0 30px 0 30px;
 }
+
 .info-title {
     font-size: 13px;
 
 }
-.info-detail{
+
+.info-detail {
     font-size: 16px;
-    font-weight:600;
+    font-weight: 600;
 }
 
 /* ============================== */
 /* ======= what i do ========== */
 /* ============================= */
-.what_i_do{
-   margin-bottom: 100px;
+.what_i_do {
+    margin-bottom: 100px;
 }
-.what-container{
-  text-align: center;
-  width: 900px;
-  
-  margin:0 auto;
+
+.what-container {
+    text-align: center;
+    width: 900px;
+
+    margin: 0 auto;
 }
-.primary-title{
+
+.primary-title {
     font-size: 35px;
     font-weight: bold;
     margin-bottom: 30px;
-    color:#7B1FA2;
+    color: #7B1FA2;
 }
 
 /* ============================== */
 /* ======= skills style ========== */
 /* ============================= */
-.skills{
+.skills {
     width: 1140px;
-    margin:0 auto;
+    margin: 0 auto;
     margin-bottom: 150px;
 }
-.skills-container{
+
+.skills-container {
     display: flex;
     /* background-color: #f7f7f7; */
-    
-     /* rgba(0, 0, 0, 0.06); */
+
+    /* rgba(0, 0, 0, 0.06); */
     gap: 15PX;
 
-                    
+
 }
-.skill{
+
+.skill {
     background-color: #FFFFFF;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 5px 80px 0px rgb(71, 207, 71);
 }
-.skill-title{
+
+.skill-title {
     font-size: 20px;
     margin-bottom: 15px;
     margin-top: 15px;
 }
-.skill-description{
-    
+
+.skill-description {
+
     font-size: 15px;
     line-height: 2;
 }
@@ -260,57 +276,185 @@
 /* ============================== */
 /* ======= skills style ========== */
 /* ============================= */
-.resume{
-    width : 1140px;
-   margin: 0 auto;
+.resume {
+    width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 100px;
 }
-.resume > h3{
+
+.resume>h3 {
     text-align: center;
     margin-bottom: 140px;
 }
-.resume-container{
+
+.resume-container {
     display: flex;
-    
+
 }
-.resume-col-left{
-    
-    padding:40px
+
+.resume-col-left {
+
+    padding: 40px
 }
-.resume-col-right{
+
+.resume-col-right {
     /* background-color: #fff; */
-    padding:40px
+    padding: 40px
 }
-.resume-left-title{
+
+.resume-left-title {
     font-size: 25px;
     margin-bottom: 25px;
 }
-.resume-item{
 
-}
-.resume-item-title{
+.resume-item {}
+
+.resume-item-title {
     font-size: 20px;
     margin-bottom: 6px;
 }
-.resume-item-sub-title{
+
+.resume-item-sub-title {
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 14px;
 }
-.resume-description{
+
+.resume-description {
     font-size: 15px;
     margin-bottom: 20px;
     line-height: 1.8;
 }
-.resume-right-title{
+
+.resume-right-title {
     font-size: 25px;
     margin-bottom: 25px;
 }
-.space-top{margin-top:20px}
 
-.cv-download{
-    width:200px;
+.space-top {
+    margin-top: 20px
+}
+
+.cv-download {
+    width: 200px;
     height: 65px;
-    border-radius: 13px;
+    margin: 0 auto;
+    border-radius: 10px;
     background-color: #fd6e0a;
-    text-align:center;
+    color: white;
+    /* display:block; */
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn-cv-resume {
+    text-align: center;
+}
+
+#rifat {
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+    color: teal;
+}
+
+/* =========footer style============= */
+footer {
+    background-color: #fff8f3;
+    padding: 130px 230px;
+}
+
+.footer-container {
+
+    display: flex;
+    gap: 100px;
+
+}
+
+/* Lets Connect */
+.connect {
+    font-size: 35px;
+    line-height: 48px;
+    margin-bottom: 20px;
+    color: #181818;
+}
+
+.social-des {
+    font-size: 16px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.social-icon img:first-of-type {
+    border: 2px solid green;
+}
+
+.social-icon img:last-of-type {
+    border: 2px solid green;
+}
+
+.social-icon img:nth-of-type(2) {
+    border: 2px solid green;
+}
+
+.social-icon img {
+    width: 24px;
+    height: 24px;
+    margin-left: 24px;
+}
+
+/* -------------- */
+.footer-social {
+    width: 50%;
+}
+
+.footer-contact {
+    width: 50%;
+}
+
+.message {
+    font-size: 35px;
+    /* line-height: 48px; */
+    margin-bottom: 20px;
+    color: #181818;
+}
+
+.footer-contact form input[type=text],
+.footer-contact form input[type=email],
+textarea {
+    /* width:100%; */
+    width: 460px;
+    border-radius: 5px;
+    border: 0;
+    padding: 18px 30px;
+    color: #757575;
+    font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border: none;
+    outline: none;
+}
+
+input[type=submit] {
+
+    width: 150px;
+    height: 64px;
+    /* left: 909px; */
+    /* top: 4062px; */
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    border:none;
+    outline:none;
+    
+   
+
+}
+.a{
+    display:block;
+
 }
