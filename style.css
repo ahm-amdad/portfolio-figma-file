@@ -35,7 +35,7 @@ body {
 }
 
 /* Vertical text section styling */
-.vertical-text {
+/* .vertical-text {
     font-size: 4rem;
     padding-left: 15px;
     font-weight: bold;
@@ -45,13 +45,13 @@ body {
     flex-direction: column-reverse;
     align-items: start;
     /* letter-spacing: 2px;  */
-}
+} */
 
-.vertical-text span {
+/* .vertical-text span {
     transform: rotate(-90deg);
     display: block;
     margin: 5px 0;
-}
+} */
 
 
 /* Main content styling */
@@ -160,7 +160,7 @@ body {
 /* Hero image styling */
 .hero-image img {
     width: 550px;
-    height: 595px;
+    height: 602px;
 
 }
 
